@@ -45,6 +45,3 @@ data = _modbusUtils(ModbusBMS, modbusAddr['modbus'])
 print('ip:' + conV + ' || ' + 'meter_id:' + str(id) + ' || '
       + 'meter model:' + str(modbusAddr['sensor']) + ' || '
       + 'energy{kWh}:' + str(data))
-
-a = 'abcdefg'
-print(a[0:])
